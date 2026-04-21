@@ -1,0 +1,13 @@
+column_name,data_type,comment
+vehicle_key,string,Composite vehicle key
+make,string,Vehicle make
+model,string,Vehicle model
+year,int,Model year
+engine_id,string,Engine id
+emissions_score,double,Emissions score
+co2,double,CO2 emissions
+fuel_cost,double,Fuel cost index
+safety_overall_stars,int,Overall safety rating
+front_stars,int,Front crash rating
+side_stars,int,Side crash rating
+rollover_stars,int,Rollover rating

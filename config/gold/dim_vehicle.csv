@@ -1,0 +1,9 @@
+column_name,data_type,comment
+make,string,Vehicle manufacturer
+model,string,Vehicle model
+year,int,Production year
+vehicle_class,string,Classification
+fuel_type,string,Fuel type
+engine_id,string,Engine identifier
+emissions_score,double,Emissions rating
+safety_stars,int,NHTSA safety rating

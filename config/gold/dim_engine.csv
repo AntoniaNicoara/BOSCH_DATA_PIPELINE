@@ -1,0 +1,7 @@
+column_name,data_type,comment
+engine_id,string,Unique engine id
+manufacturer,string,Engine manufacturer
+origin,string,Production origin
+power_source,string,Power source type
+fuel_configuration,string,Fuel configuration
+vehicle_ids,array,Linked vehicle ids
