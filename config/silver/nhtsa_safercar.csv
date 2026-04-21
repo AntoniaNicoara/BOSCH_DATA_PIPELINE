@@ -1,0 +1,89 @@
+column_name,data_type,comment
+MAKE,STRING,vehicle manufacturer
+MODEL,STRING,vehicle model
+MODEL_YR,INT,model year
+BODY_STYLE,STRING,body style
+VEHICLE_TYPE,STRING,vehicle type
+DRIVE_TRAIN,STRING,drive train
+PRODUCTION_RELEASE,INT,production release indicator
+VEHICLE_CLASS,STRING,vehicle class
+BODY_FRAME,STRING,body frame type
+NUM_OF_SEATING,STRING,number of seats (can be range)
+SEAT_LOC,STRING,seat locations
+SEAT_LOC_COMMENTS,STRING,seat location comments
+MIN_GROSS_WEIGHT,INT,minimum gross weight
+MAX_GROSS_WEIGHT,INT,maximum gross weight
+UPPER_BELT_ANCHORAGE,STRING,upper belt anchorage
+UPPER_BELT_ANCHORAGE_LOC,STRING,anchorage location
+SEAT_BELT_PRETENSIONER,STRING,pretensioner availability
+SEAT_BELT_PRETENSIONER_LOC,STRING,pretensioner location
+LOAD_LIMITERS,STRING,load limiter availability
+LOAD_LIMITERS_LOC,STRING,load limiter location
+FRNT_BELT_INDICATOR,STRING,front belt indicator
+FRNT_BELT_LOC,STRING,front belt location
+REAR_BELT_INDICATOR,STRING,rear belt indicator
+LATCH_REAR_POSITION,STRING,latch rear position
+HEAD_SAB,STRING,head side airbag
+HEAD_SAB_TYPE,STRING,head side airbag type
+HEAD_SAB_LOC,STRING,head side airbag location
+HEAD_SAB_MOUNT_LOC,STRING,head side airbag mount
+HEAD_SAB_MEET_REQUIREMENTS,STRING,meets requirements
+HEAD_SAB_DEPLOY_IN_ROLLOVER,STRING,deploy in rollover
+TORSO_SAB,STRING,torso airbag
+TORSO_SAB_TYPE,STRING,torso airbag type
+TORSO_SAB_LOC,STRING,torso airbag location
+TORSO_SAB_MOUNT_LOC,STRING,torso airbag mount
+KNEE_BOLSTERS,STRING,knee bolsters
+KNEE_BOLSTERS_LOC,STRING,knee bolsters location
+ADL,STRING,automatic door lock
+HEAD_RESTRAINT_IND,STRING,head restraint indicator
+DYNAMIC_HEAD_RESTRAINT_IND,STRING,dynamic head restraint
+BETI,STRING,brake transmission shift interlock
+BLIND_SPOT_DETECTION,STRING,blind spot detection
+DAY_RUN_LIGHTS,STRING,day running lights
+ADAPTIVE_CRUISE_CONTROL,STRING,adaptive cruise control
+ABS,STRING,anti-lock braking system
+ARS,STRING,active roll stabilization
+ARS_LOC,STRING,ars location
+AUTO_CRASH_NOTIFICATION,STRING,auto crash notification
+CRASH_DATA_RECORDER,STRING,crash data recorder
+ANTI_THEFT_DEVICE,STRING,anti theft device
+ANTI_THEFT_DEVICE_TYPE,STRING,anti theft type
+FRNT_COLLISION_WARNING,STRING,forward collision warning
+NHTSA_FRNT_COLLISION_WARNING,STRING,nhtsa fcw flag
+NHTSA_FCW_EVALUATION,STRING,nhtsa fcw evaluation
+LANE_DEPARTURE_WARNING,STRING,lane departure warning
+NHTSA_LANE_DEPARTURE_WARNING,STRING,nhtsa ldw flag
+NHTSA_LDW_EVALUATION,STRING,nhtsa ldw evaluation
+CRASH_IMMINENT_BRAKE,STRING,crash imminent brake
+NHTSA_CRASH_IMMINENT_BRAKE,STRING,nhtsa cib flag
+NHTSA_CIB_EVALUATION,STRING,nhtsa cib evaluation
+DYNAMIC_BRAKE_SUPPORT,STRING,dynamic brake support
+NHTSA_DYNAMIC_BRAKE_SUPPORT,STRING,nhtsa dbs flag
+NHTSA_DBS_EVALUATION,STRING,nhtsa dbs evaluation
+NHTSA_ESC,STRING,electronic stability control
+PELVIS_SAB,STRING,pelvis airbag
+PELVIS_SAB_TYPE,STRING,pelvis airbag type
+PELVIS_SAB_LOC,STRING,pelvis airbag location
+PELVIS_SAB_MOUNT_LOC,STRING,pelvis airbag mount
+OVERALL_STARS,INT,nhtsa overall stars
+FRNT_TEST_NO,INT,front test number
+FRNT_VIN,STRING,front vin
+FRNT_DRIV_STARS,INT,front driver stars
+FRNT_PASS_STARS,INT,front passenger stars
+OVERALL_FRNT_STARS,INT,overall front stars
+CURB_WEIGHT,INT,vehicle curb weight
+SIDE_TEST_NO,INT,side test number
+SIDE_VIN,STRING,side vin
+SIDE_DRIV_STARS,INT,side driver stars
+SIDE_PASS_STARS,INT,side passenger stars
+OVERALL_SIDE_STARS,INT,overall side stars
+POLE_TEST_NO,INT,pole test number
+POLE_VIN,STRING,pole vin
+SIDE_POLE_STARS,INT,side pole stars
+ROLLOVER_POSSIBILITY,DOUBLE,rollover probability
+STATIC_STABI_FACTOR,DOUBLE,stability factor
+TIP,STRING,tip indicator
+ROLLOVER_STARS,INT,rollover stars
+NHTSA_BACKUP_CAMERA,STRING,nhtsa backup camera
+BACKUP_CAMERA,STRING,backup camera availability

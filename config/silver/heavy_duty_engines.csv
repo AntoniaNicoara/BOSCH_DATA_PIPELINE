@@ -1,0 +1,10 @@
+column_name,data_type,comment
+engine_id,INT,unique engine identifier
+model,STRING,engine model or configuration name
+manufacturer ID,INT,manufacturer numeric identifier
+manufacturer,STRING,engine manufacturer name
+origin,STRING,origin type (OEM / conversion / etc.)
+power_source,STRING,type of power source (electric, ICE, hybrid)
+fuel_configuration,STRING,fuel configuration type (dedicated, dual fuel, etc.)
+vehicle_ids,STRING,list of associated vehicle IDs (array encoded as string)
+emission_certifications,STRING,emission certification standards (may contain multiple values)
