@@ -1,0 +1,85 @@
+column_name,data_type,comment
+barrels08,DOUBLE,fuel consumption in barrels per year
+barrelsA08,DOUBLE,alternative fuel consumption
+charge120,DOUBLE,charging time at 120V
+charge240,DOUBLE,charging time at 240V
+city08,INT,city MPG
+city08U,DOUBLE,unadjusted city MPG
+cityA08,INT,city MPG alternative fuel
+cityA08U,DOUBLE,unadjusted city MPG alternative fuel
+cityCD,DOUBLE,city electric consumption
+cityE,DOUBLE,city electricity consumption
+cityUF,DOUBLE,city utility factor
+co2,INT,CO2 emissions
+co2A,INT,CO2 emissions alternative fuel
+co2TailpipeAGpm,DOUBLE,tailpipe CO2 alternative fuel
+co2TailpipeGpm,DOUBLE,tailpipe CO2
+comb08,INT,combined MPG
+comb08U,DOUBLE,unadjusted combined MPG
+combA08,INT,combined MPG alternative fuel
+combA08U,DOUBLE,unadjusted combined MPG alt fuel
+combE,DOUBLE,combined electricity consumption
+combinedCD,DOUBLE,combined electric consumption
+combinedUF,DOUBLE,combined utility factor
+cylinders,INT,engine cylinders
+displ,DOUBLE,engine displacement
+drive,STRING,drive type
+engId,INT,engine ID
+eng_dscr,STRING,engine description
+feScore,INT,fuel economy score
+fuelCost08,INT,annual fuel cost
+fuelCostA08,INT,alt fuel cost
+fuelType,STRING,fuel type
+fuelType1,STRING,primary fuel type
+ghgScore,INT,greenhouse gas score
+ghgScoreA,INT,alt greenhouse gas score
+highway08,INT,highway MPG
+highway08U,DOUBLE,unadjusted highway MPG
+highwayA08,INT,highway MPG alt fuel
+highwayA08U,DOUBLE,unadjusted highway MPG alt fuel
+highwayCD,DOUBLE,highway electric consumption
+highwayE,DOUBLE,highway electricity consumption
+highwayUF,DOUBLE,highway utility factor
+hlv,INT,hybrid low voltage indicator
+hpv,INT,hybrid high performance indicator
+id,INT,vehicle ID
+lv2,INT,level 2 classification
+lv4,INT,level 4 classification
+make,STRING,vehicle manufacturer
+model,STRING,vehicle model
+mpgData,STRING,mpg data availability
+phevBlended,BOOLEAN,plug-in hybrid blended mode
+pv2,INT,passenger volume level 2
+pv4,INT,passenger volume level 4
+range,INT,vehicle range
+rangeCity,INT,city range
+rangeCityA,INT,city range alt fuel
+rangeHwy,INT,highway range
+rangeHwyA,INT,highway range alt fuel
+trany,STRING,transmission type
+UCity,DOUBLE,unadjusted city MPG (alt metric)
+UCityA,DOUBLE,unadjusted city MPG alt fuel
+UHighway,DOUBLE,unadjusted highway MPG
+UHighwayA,DOUBLE,unadjusted highway MPG alt fuel
+VClass,STRING,vehicle class
+year,INT,model year
+youSaveSpend,INT,relative fuel cost savings
+baseModel,STRING,base model name
+guzzler,STRING,gas guzzler tax indicator
+trans_dscr,STRING,transmission description
+tCharger,STRING,turbo charger indicator
+sCharger,STRING,supercharger indicator
+atvType,STRING,alternative vehicle type
+fuelType2,STRING,secondary fuel type
+rangeA,STRING,alternative fuel range
+evMotor,STRING,electric motor description
+mfrCode,STRING,manufacturer code
+c240Dscr,STRING,charge 240 description
+charge240b,DOUBLE,alternate charge time 240V
+c240bDscr,STRING,charge 240 secondary description
+createdOn,TIMESTAMP,record creation timestamp
+modifiedOn,TIMESTAMP,record modification timestamp
+startStop,STRING,start-stop system indicator
+phevCity,INT,phev city MPG
+phevHwy,INT,phev highway MPG
+phevComb,INT,phev combined MPG
